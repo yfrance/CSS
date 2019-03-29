@@ -2,7 +2,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   color: #333333;
   border-top: 10px solid #274a64;
 }
@@ -27,13 +27,14 @@ h6 {
   align-items: center;
 }
 
-.navigation ul li {
-  justify-content: flex-end;
-  padding: 10px 0
+.navigation {
+  padding: 20px 0;
+  background: #ffb800;
 }
 
 .navigation a {
+  color: #000;
   padding: 10px 20px;
-  color: #bdbdbd;
   font-weight: bold;
-  
+  text-decoration-line: none;
+}
