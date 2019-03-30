@@ -43,3 +43,33 @@ h6 {
   color: #000000;
   text-decoration: none;
 }
+
+.head {
+  margin-right: 200px;
+}
+
+.content-folio {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.list a {
+  padding: 10px;
+}
+
+.thumbnails {
+  height: 400px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.thumbnails img {
+}
