@@ -43,27 +43,3 @@ h6 {
   color: #000000;
   text-decoration: none;
 }
-
-.source {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-  max-height: 40px;
-}
-
-.source img {
-  width: 500px;
-  height: 500px;
-  object-fit: cover;
-  transform: rotate(-90deg);
-}
-
-.profile-text {
-  background-color: #ffb800;
-  width: 400px;
-  height: 400px;
-  padding: 50px;
-  text-align: justify;
-  min-width: 400px;
-  max-height: 400px;
-}
