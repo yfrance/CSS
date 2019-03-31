@@ -44,32 +44,36 @@ h6 {
   text-decoration: none;
 }
 
-.head {
-  margin-right: 200px;
+.head-name {
+  margin-right: 850px;
 }
 
 .content-folio {
   display: flex;
   justify-content: space-around;
+  align-content: flex-start;
 }
 
 .list {
   display: flex;
   flex-direction: column;
-  float: left;
+  margin-left: 280px;
 }
 
 .list a {
   padding: 10px;
+  white-space: nowrap;
 }
 
 .thumbnails {
-  height: 400px;
-  width: 400px;
   display: grid;
   grid-template-columns: auto auto;
-  padding: 10px;
+  grid-gap: 10px;
+  margin-right: 400px;
+  margin-left: 200px;
 }
 
-.thumbnails img {
+.porto {
+  height: 200px;
+  width: 300px;
 }
