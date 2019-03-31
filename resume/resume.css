@@ -45,10 +45,13 @@ h6 {
 }
 
 .head-name {
-  margin-right: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 1000px;
 }
 
-.content-folio {
+.content-resume {
   display: flex;
   justify-content: space-around;
   align-content: flex-start;
@@ -57,10 +60,16 @@ h6 {
 .list {
   display: flex;
   flex-direction: column;
-  margin-left: 340px;
+  align-content: space-between;
+  width: 610px;
 }
 
 .list a {
   padding: 10px;
   white-space: nowrap;
+}
+
+.list2 {
+  display: flex;
+  flex-direction: column;
 }
