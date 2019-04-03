@@ -36,6 +36,8 @@ h6 {
 
 .navigation a {
   margin-left: 50px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .color menu {
@@ -45,7 +47,7 @@ h6 {
 }
 
 .head-name {
-  margin-right: 850px;
+  margin-right: 700px;
 }
 
 .content-folio {
@@ -57,12 +59,18 @@ h6 {
 .list {
   display: flex;
   flex-direction: column;
-  margin-left: 280px;
+  margin-left: 340px;
 }
 
 .list a {
   padding: 10px;
   white-space: nowrap;
+  text-decoration: none;
+  color: #000000;
+}
+
+.list2 {
+  font-display: bold;
 }
 
 .thumbnails {
@@ -70,7 +78,7 @@ h6 {
   grid-template-columns: auto auto;
   grid-gap: 10px;
   margin-right: 400px;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 .porto {

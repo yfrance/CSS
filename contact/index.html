@@ -5,38 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Yan France | Impactbyte Healthy Haku</title>
+
+    <!-- google-maps -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+    <script>
+      // Maps point
+      function initialize() {
+        var propertiPeta = {
+          center: new google.maps.LatLng(6.2568115, 106.812866),
+          zoom: 4,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var peta = new google.maps.Map(
+          document.getElementById("googleMap"),
+          propertiPeta
+        );
+      }
+
+      // load-window
+      google.maps.event.addDomListener(window, "load", initialize);
+    </script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
   </head>
+
   <body>
-    <nav>
-      <a href="../index.html">Home</a>
-      <a href="../portofolio/index.html">portofolio</a>
-      <a href="../resume/index.html">resume</a>
-      <a href="../contact/index.html">contact</a>
-    </nav>
+    <div class="body-aal">
+      <div id="container" class="container">
+        <nav id="navigation" class="navigation">
+          <a class="menu" href="../index.html"><b>Home</b></a>
+          <a class="menu" href="../portofolio/index.html"><b>Portofolio</b></a>
+          <a class="menu" href="../resume/index.html"><b>Resume</b></a>
+          <a class="menu" href="../contact/index.html"><b>Contact</b></a>
+          <a class="menu" href="../blog/index.html"><b>Blog</b></a>
+          <a class="menu" href="../download-cv/index.html"
+            ><b>Download CV</b></a
+          >
+        </nav>
+      </div>
+      <div class="main-content">
+        <div class="head-name">
+          <div id="contact" class="contact">
+            <div>
+              <section class="head-name-first-section">
+                <h1>Contact</h1>
+              </section>
+              <section class="head-name-second-section">
+                <img src="../images/icons/email-logo.png" />
+                <img src="../images/icons/facebook-logo.png" />
+                <img src="../images/icons/github-logo.png" />
+                <img src="../images/icons/pinterest-logo.png" />
+                <img src="../images/icons/youtube-logo.png" />
+              </section>
+            </div>
 
-    <h1>Contact</h1>
-
-    <img src="../images/yellow.png" />
-
-    <section>
-      <img src="../images/icons/email-logo.png" />
-      <img src="../images/icons/facebook-logo.png" />
-      <img src="../images/icons/github-logo.png" />
-      <img src="../images/icons/pinterest-logo.png" />
-      <img src="../images/icons/youtube-logo.png" />
-    </section>
-
-    <h4>Address : Jalan Kesehatan, Timika, Papua 99910</h4>
-    <h4>Phonenumber : +62 82248077976</h4>
-    <h4>Email : yanfrance.mumu@gmail.com</h4>
-
-    <form>
-      <h4>Your Name</h4>
-
-      <h4>Your Message</h4>
-      <textarea name="text-area" cols="30" rows="10"></textarea>
-
-      <button>Summmit</button>
-    </form>
+            <div class="main">
+              <div class="location">
+                <h4>Address : Jalan Kesehatan, Timika, Papua 99910</h4>
+                <h4>Phonenumber : +62 82248077976</h4>
+                <h4>Email : yanfrance.mumu@gmail.com</h4>
+              </div>
+              <form>
+                <div class="your-name">
+                  <label>Your Name</label>
+                  <input type="text" />
+                </div>
+                <div class="your-message">
+                  <label>Your Message</label>
+                  <textarea name="text-area" cols="29" rows="7"></textarea>
+                </div>
+                <button>Summit</button>
+              </form>
+            </div>
+          </div>
+          <div
+            id="googleMap"
+            style="width:450px;height:470px;margin-right: 50px;"
+          ></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

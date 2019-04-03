@@ -36,6 +36,8 @@ h6 {
 
 .navigation a {
   margin-left: 50px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .color menu {
